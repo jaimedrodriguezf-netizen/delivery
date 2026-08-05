@@ -1,0 +1,22 @@
+{
+    "name": "delivery/backend",
+    "authors": [
+        {
+            "name": "jaimedrodriguezf-netizen",
+            "email": "jaimedrodriguezf@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^5.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
